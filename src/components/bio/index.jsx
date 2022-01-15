@@ -31,28 +31,28 @@ export const Bio = () => (
                 <p className="author-socials">
                   {social.instagram && (
                     <a href={`https://www.instagram.com/${social.instagram}`}>
-                      Instagram
+                      ✤ Instagram
                     </a>
                   )}
                   {social.github && (
-                    <a href={`https://github.com/${social.github}`}>GitHub</a>
+                    <a href={`https://github.com/${social.github}`}>✤ GitHub</a>
                   )}
                   {social.medium && (
-                    <a href={`https://medium.com/${social.medium}`}>Medium</a>
+                    <a href={`https://medium.com/${social.medium}`}>✤ Medium</a>
                   )}
                   {social.twitter && (
                     <a href={`https://twitter.com/${social.twitter}`}>
-                      Twitter
+                      ✤ Twitter
                     </a>
                   )}
                   {social.facebook && (
                     <a href={`https://www.facebook.com/${social.facebook}`}>
-                      Facebook
+                      ✤ Facebook
                     </a>
                   )}
                   {social.linkedin && (
                     <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
-                      LinkedIn
+                      ✤ LinkedIn
                     </a>
                   )}
                 </p>
