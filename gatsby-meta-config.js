@@ -1,6 +1,6 @@
 module.exports = {
   title: `Seungsoo.io`,
-  description: `Blog posted about ...`,
+  description: `최승수의 기록`,
   author: `[Seungsoo]`,
   introduction: `프론트엔드 개발자.`,
   siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
@@ -22,7 +22,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2

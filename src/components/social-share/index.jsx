@@ -21,8 +21,9 @@ export const SocialShare = ({ title, author }) => {
 
   return (
     <div className="social-share">
-      <FacebookIcon onClick={onClickFacebookIcon} />
-      <TwitterIcon onClick={onClickTwitterIcon} />
+      {/* social share 없음 */}
+      {/* <FacebookIcon onClick={onClickFacebookIcon} />
+      <TwitterIcon onClick={onClickTwitterIcon} /> */}
     </div>
   )
 }
