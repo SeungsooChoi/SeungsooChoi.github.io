@@ -314,7 +314,6 @@ svg {
 }
 .hero__lead {
   margin: 0;
-  max-width: 46ch;
   font-size: 16px;
   line-height: 1.85;
   color: var(--muted);
@@ -736,13 +735,17 @@ svg {
   border-top: 1px solid var(--line);
   padding: 34px 0 56px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
-  gap: 24px 36px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
 }
 .site-footer__col {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding-right: 36px;
+}
+.site-footer__col:last-child {
+  padding-right: 0;
 }
 .site-footer__col--links {
   gap: 9px;
@@ -783,9 +786,32 @@ svg {
   color: var(--brand);
 }
 .site-footer__fine {
+  margin: 0;
   font-size: 12.5px;
   line-height: 1.8;
   color: var(--brand);
+}
+.site-footer__sources-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--muted-2);
+}
+.site-footer__source-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12.5px;
+  line-height: 1.7;
+  color: var(--muted-2);
+}
+.site-footer__source-list a {
+  color: var(--brand);
+}
+.site-footer__source-list a:hover {
+  text-decoration: underline;
 }
 .site-footer__copy {
   font-size: 13px;
@@ -1015,5 +1041,12 @@ svg {
   }
   .doc-nav__brand {
     flex: 1 0 100%;
+  }
+  .site-footer {
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+  }
+  .site-footer__col {
+    padding-right: 0;
   }
 }
