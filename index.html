@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>moshimoshi — JLPT 일본어 단어 학습</title>
+    <meta
+      name="description"
+      content="간격 반복(SRS)으로 JLPT N5–N1 단어를 관리하는 일본어 학습 앱. 오늘 복습할 카드만 골라 주고, 학습 기록은 계정에 저장되어 기기 간 이어집니다."
+    />
+    <meta name="theme-color" content="#059669" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="moshimoshi — JLPT 일본어 단어 학습" />
+    <meta property="og:description" content="간격 반복(SRS)으로 JLPT N5–N1 단어를 관리하는 일본어 학습 앱." />
+    <meta property="og:url" content="https://seungsoochoi.github.io/" />
+    <meta property="og:locale" content="ko_KR" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <nav class="nav">
+          <a href="#top" class="brand">
+            <span class="brand__mark" aria-hidden="true">も</span>
+            <span class="brand__name">moshimoshi</span>
+          </a>
+          <div class="nav__spacer"></div>
+          <a href="#features" class="nav__link">기능 소개</a>
+          <a href="#support" class="nav__link">고객지원</a>
+          <a href="terms/index.html" class="nav__link">약관 안내</a>
+          <a href="#download" class="btn btn--sm btn--primary">앱 다운로드</a>
+        </nav>
+      </header>
+
+      <main id="top" class="wrap">
+        <section class="hero">
+          <div class="hero__copy">
+            <span class="hero__badge">단어 학습</span>
+            <h1 class="hero__title">
+              매일 정해진 분량만큼<br />
+              더 쉽게 학습하는 일본어
+            </h1>
+            <p class="hero__lead">
+              간격 반복(SRS)이 오늘 복습할 카드만 골라 줍니다. 가나부터 JLPT 급수별 단어까지, 하루 10분으로 학습하는
+              일본어.
+            </p>
+            <div id="download" class="hero__actions">
+              <span class="btn btn--primary" role="link" aria-disabled="true">App Store</span>
+              <span class="btn btn--ghost" role="link" aria-disabled="true">Google Play</span>
+            </div>
+            <div class="hero__notes">
+              <span>출시 예정 · iOS 16 이상 / Android 9 이상</span><span>·</span><span>무료 이용 · 인앱 결제 없음</span>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <div class="phone" role="img" aria-label="moshimoshi 앱의 오늘의 학습 화면 미리보기">
+              <div class="phone__screen">
+                <div class="phone__status"><span>9:41</span><span class="phone__status-icons">▮▮ ⌁</span></div>
+                <div class="phone__greeting">
+                  <span class="phone__greeting-label">오늘도 반가워요</span>
+                  <span class="phone__greeting-title">학습자 님</span>
+                </div>
+                <div class="phone__body">
+                  <div class="phone__goal">
+                    <div class="phone__ring">
+                      <svg viewBox="0 0 200 200" aria-hidden="true">
+                        <circle cx="100" cy="100" r="86" fill="none" stroke="#f1ede4" stroke-width="15"></circle>
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="86"
+                          fill="none"
+                          stroke="#059669"
+                          stroke-width="15"
+                          stroke-linecap="round"
+                          stroke-dasharray="540"
+                          stroke-dashoffset="216"
+                        ></circle>
+                      </svg>
+                      <div class="phone__ring-label">
+                        <span class="phone__ring-value">60%</span>
+                        <span class="phone__ring-caption">오늘의 목표</span>
+                      </div>
+                    </div>
+                    <div class="phone__task">
+                      <b>JLPT N3 단어 학습</b>
+                      <span>오늘 15단어 중 9단어 완료</span>
+                    </div>
+                    <span class="phone__badge">
+                      <svg
+                        width="13"
+                        height="13"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <path d="M3 12a9 9 0 1 0 3-6.7"></path>
+                        <path d="M3 4v5h5"></path>
+                      </svg>
+                      복습 6단어
+                    </span>
+                    <span class="phone__cta">이어서 학습</span>
+                  </div>
+                  <div class="phone__reports">
+                    <div class="phone__report">
+                      <span class="phone__report-label">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          aria-hidden="true"
+                        >
+                          <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"></path>
+                          <path d="M9 3v18"></path>
+                        </svg>
+                        학습한 단어
+                      </span>
+                      <span class="phone__report-row">
+                        <b class="phone__report-value">9</b>
+                        <span class="phone__report-unit">/ 15</span>
+                      </span>
+                      <div class="phone__report-bar"><i style="width: 60%"></i></div>
+                    </div>
+                    <div class="phone__report">
+                      <span class="phone__report-label">
+                        <svg
+                          width="14"
+                          height="14"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          aria-hidden="true"
+                        >
+                          <circle cx="12" cy="12" r="9"></circle>
+                          <path d="M12 7v5.5l3.5 2"></path>
+                        </svg>
+                        학습 시간
+                      </span>
+                      <span class="phone__report-row">
+                        <b class="phone__report-value">4</b>
+                        <span class="phone__report-unit">m</span>
+                      </span>
+                      <span class="phone__report-note">오늘 누적</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="phone__tabs">
+                  <div class="phone__tab phone__tab--active">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M3 10.5 12 3l9 7.5"></path>
+                      <path d="M5 9.5V21h14V9.5"></path>
+                    </svg>
+                    <span>홈</span>
+                  </div>
+                  <div class="phone__tab">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M4 6h16"></path>
+                      <path d="M12 4v6"></path>
+                      <path d="M17 10c-1 6-5 9-10 10"></path>
+                      <path d="M8 13c1.5 4 4.5 6 9 7"></path>
+                    </svg>
+                    <span>가나</span>
+                  </div>
+                  <div class="phone__tab">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"></path>
+                      <path d="M9 3v18"></path>
+                    </svg>
+                    <span>단어장</span>
+                  </div>
+                  <div class="phone__tab">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <circle cx="12" cy="8" r="4"></circle>
+                      <path d="M4.5 21c1.3-4 4-6 7.5-6s6.2 2 7.5 6"></path>
+                    </svg>
+                    <span>프로필</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 수록 단어 수·가나 개수·평균 학습 시간은 실제 앱 데이터에 맞게 확인 후 갱신할 것 -->
+        <section class="section stats" aria-label="숫자로 보는 moshimoshi">
+          <div class="stat">
+            <b class="stat__value stat__value--brand">8,016</b>
+            <span class="stat__label">전체 단어 수</span>
+          </div>
+          <div class="stat">
+            <b class="stat__value">10분</b>
+            <span class="stat__label">하루 평균 학습 시간</span>
+          </div>
+          <div class="stat">
+            <b class="stat__value stat__value--accent">0원</b>
+            <span class="stat__label">유료 결제 · 구독 없음</span>
+          </div>
+        </section>
+
+        <section id="features" class="section features">
+          <div class="section__head">
+            <span class="eyebrow">기능 소개</span>
+            <h2 class="section__title">습관이 되는 일본어 학습, 필요한 기능만 담았습니다.</h2>
+          </div>
+          <div class="card-grid">
+            <div class="card">
+              <span class="card__icon" aria-hidden="true">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"></path>
+                  <path d="M9 3v18"></path>
+                </svg>
+              </span>
+              <b class="card__title">급수별 단어장과 뜻풀이</b>
+              <p class="card__text">
+                N5부터 N1까지 급수별로 정리된 단어, 뜻풀이와 예문을 붙였습니다. 후리가나와 품사, 활용형까지 한 화면에서
+                확인합니다.
+              </p>
+            </div>
+            <div class="card">
+              <span class="card__icon card__icon--accent" aria-hidden="true">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.9"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 12a9 9 0 1 0 3-6.7"></path>
+                  <path d="M3 4v5h5"></path>
+                </svg>
+              </span>
+              <b class="card__title">잊힐 때 돌아오는 복습</b>
+              <p class="card__text">
+                간격 반복 알고리즘이 카드마다 다음 복습일을 따로 계산합니다. 아는 단어는 멀리 보내고 모르는 단어만 자주
+                불러오니, 매일 해야 할 분량이 스스로 줄어듭니다.
+              </p>
+              <div class="chips">
+                <span class="chip">1일</span>
+                <span class="chip">3일</span>
+                <span class="chip">7일</span>
+                <span class="chip chip--brand">21일</span>
+              </div>
+            </div>
+            <div class="card">
+              <span class="card__icon" aria-hidden="true">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M11 5 6 9H2v6h4l5 4z"></path>
+                  <path d="M15.5 8.5a5 5 0 0 1 0 7"></path>
+                  <path d="M18.5 5.5a9 9 0 0 1 0 13"></path>
+                </svg>
+              </span>
+              <b class="card__title">동기화 · 다크 모드 · TTS</b>
+              <p class="card__text">
+                계정 하나로 휴대폰과 태블릿의 진도가 이어지고, 음성 합성(TTS)으로 단어와 예문을 들을 수 있습니다. 저녁
+                공부를 위한 다크 모드는 기본입니다.
+              </p>
+              <div class="chips">
+                <span class="chip">기기 간 동기화</span>
+                <span class="chip chip--dark">다크 모드</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="support" class="section support">
+          <div class="support__col">
+            <span class="eyebrow">고객지원</span>
+            <h2 class="section__title">문의와 신고, 직접 받습니다</h2>
+            <p class="support__text">
+              오류 제보, 단어 데이터 수정 요청, 계정·데이터 삭제 요청, 저작권 등 권리 침해 신고를 아래 메일로 보내
+              주세요. 접수 후 7일 이내에 회신합니다.
+            </p>
+            <div class="support__card">
+              <span class="eyebrow eyebrow--sm">운영자 이메일</span>
+              <a href="mailto:support@moshimoshi.app" class="support__mail">support@moshimoshi.app</a>
+            </div>
+          </div>
+          <div class="support__col support__col--faq">
+            <span class="eyebrow eyebrow--sm">자주 묻는 질문</span>
+            <details class="faq">
+              <summary class="faq__q">모든 기능이 무료인가요?</summary>
+              <p class="faq__a">
+                네. 학습, 단어장 모두 무료이며 유료 결제나 구독이 없습니다. 다만 서버 운영비를 충당하기 위해 앱 화면에
+                광고가 표시될 수 있습니다. 유료 기능이 도입되는 경우 사전에 공지하고 동의를 받습니다.
+              </p>
+            </details>
+            <details class="faq">
+              <summary class="faq__q">로그인이 꼭 필요한가요?</summary>
+              <p class="faq__a">
+                네. 학습 기록을 계정에 저장하기 위해 Google 또는 Apple 계정 로그인이 필요합니다. 별도의 이메일·비밀번호
+                가입은 제공하지 않으며, 운영자는 비밀번호를 수집하거나 보관하지 않습니다.
+              </p>
+            </details>
+            <details class="faq">
+              <summary class="faq__q">기기를 바꾸면 학습 기록이 사라지나요?</summary>
+              <p class="faq__a">
+                복습 일정과 정답률이 계정에 저장되므로, 같은 계정으로 로그인하면 새 기기에서 그대로 이어집니다. 기기에만
+                저장된 로컬 데이터는 앱을 삭제하면 함께 사라집니다.
+              </p>
+            </details>
+            <details class="faq">
+              <summary class="faq__q">단어 뜻이나 예문에 오류가 있어요.</summary>
+              <p class="faq__a">
+                앱 안 단어 화면의 '오류 신고'로 보내 주시면 가장 정확합니다. 메일로 단어와 화면을 알려 주셔도 됩니다.
+                확인 후 다음 데이터 업데이트에 반영합니다.
+              </p>
+            </details>
+            <details class="faq">
+              <summary class="faq__q">계정과 데이터를 삭제하고 싶습니다.</summary>
+              <p class="faq__a">
+                앱의 설정 &gt; 계정 &gt; 계정 삭제에서 바로 처리할 수 있고, 메일로 요청하셔도 됩니다. 계정 정보와 학습
+                데이터는 즉시 삭제되며, 별도의 백업 사본을 보관하지 않으므로 복구할 수 없습니다.
+              </p>
+            </details>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <div class="site-footer__col">
+            <span class="site-footer__brand">
+              <span class="site-footer__mark" aria-hidden="true">も</span>
+              <span class="site-footer__name">moshimoshi</span>
+            </span>
+            <p class="site-footer__text">
+              개인 개발자가 운영하는 일본어 단어 학습 앱입니다. 별도의 법인이나 사업자 조직 없이 1인이 개발·운영하며,
+              문의는 모두 운영자 메일로 접수됩니다.
+            </p>
+            <p class="site-footer__fine">
+              JLPT(일본어능력시험)는 각 주관 기관의 상표이며, 본 서비스는 해당 기관과 제휴·후원·승인 관계가 없습니다.<br />어휘
+              데이터 출처 open-anki-jlpt-decks (MIT) · https://www.tanos.co.uk/jlpt (CC BY) · Tatoeba Project (CC BY 2.0
+              FR)
+            </p>
+          </div>
+          <div class="site-footer__col site-footer__col--links">
+            <span class="eyebrow eyebrow--sm">안내</span>
+            <a href="privacy/index.html" class="site-footer__link">개인정보 처리방침</a>
+            <a href="terms/index.html" class="site-footer__link">이용약관</a>
+            <a href="#support" class="site-footer__link">고객지원 · 신고</a>
+          </div>
+          <div class="site-footer__col site-footer__col--links">
+            <span class="eyebrow eyebrow--sm">문의</span>
+            <a href="mailto:support@moshimoshi.app" class="site-footer__link">support@moshimoshi.app</a>
+            <span class="site-footer__copy">© 2026 moshimoshi. All rights reserved.</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
