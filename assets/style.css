@@ -28,12 +28,21 @@
 
   --font-body: 'Zen Kaku Gothic New', system-ui, -apple-system, sans-serif;
   --font-round: 'Zen Maru Gothic', 'Zen Kaku Gothic New', system-ui, sans-serif;
+
+  /* sticky header height — anchor targets offset by this */
+  --header-h: 69px;
 }
 
 /* ---------- base ---------- */
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 16px);
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
@@ -1022,6 +1031,9 @@ svg {
 /* ---------- narrow screens ---------- */
 
 @media (max-width: 640px) {
+  :root {
+    --header-h: 121px;
+  }
   .nav {
     gap: 10px 16px;
     padding: 12px 20px;
