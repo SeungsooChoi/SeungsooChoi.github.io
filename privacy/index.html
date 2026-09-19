@@ -1,226 +1,409 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>개인정보처리방침 — moshimoshi</title>
-<meta name="description" content="moshimoshi 개인정보처리방침 (버전 1.0)">
-<meta name="theme-color" content="#059669">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css">
-</head>
-<body>
-<div class="page">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>개인정보처리방침 — moshimoshi</title>
+    <meta name="description" content="moshimoshi 개인정보처리방침 (버전 1.0)" />
+    <meta name="theme-color" content="#059669" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="doc-header">
+        <nav class="doc-nav">
+          <a href="../index.html" class="doc-nav__brand">moshimoshi</a>
+          <div class="nav__spacer"></div>
+          <a href="../index.html" class="doc-nav__link">← 홈으로</a>
+          <a href="../terms/index.html" class="doc-nav__link">이용약관</a>
+        </nav>
+      </header>
 
-  <header class="doc-header">
-    <nav class="doc-nav">
-      <a href="../index.html" class="doc-nav__brand">moshimoshi</a>
-      <div class="nav__spacer"></div>
-      <a href="../index.html" class="doc-nav__link">← 홈으로</a>
-      <a href="../terms/index.html" class="doc-nav__link">이용약관</a>
-    </nav>
-  </header>
+      <article class="doc">
+        <h1 class="doc__title">moshimoshi 개인정보처리방침</h1>
+        <p class="doc__meta">시행일 <b>2026년 9월 19일</b> · 버전 1.0</p>
+        <p class="doc__lead">
+          moshimoshi(이하 "서비스")를 운영하는 개인 개발자(이하 "운영자")는 「개인정보 보호법」을 준수하며, 이용자의
+          개인정보를 다음과 같이 처리합니다.
+        </p>
+        <hr />
 
-  <article class="doc">
+        <h2>1. 수집하는 개인정보 항목 및 수집 방법</h2>
 
-    <h1 class="doc__title">moshimoshi 개인정보처리방침</h1>
-    <p class="doc__meta">시행일 <b>[YYYY년 MM월 DD일]</b> · 버전 1.0</p>
-    <p class="doc__lead">moshimoshi(이하 "서비스")를 운영하는 개인 개발자(이하 "운영자")는 「개인정보 보호법」을 준수하며, 이용자의 개인정보를 다음과 같이 처리합니다.</p>
-    <hr>
+        <h3>가. 계정 등록 시 (소셜 로그인)</h3>
+        <p>
+          서비스는 계정 등록 후 이용할 수 있으며, 등록은 Google 또는 Apple 계정을 통한 소셜 로그인 방식으로만
+          이루어집니다. 이때 해당 사업자로부터 다음 정보를 전달받습니다.
+        </p>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>항목</th>
+                <th>필수 여부</th>
+                <th>비고</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">계정 고유 식별자</th>
+                <td>필수</td>
+                <td>인증 제공자가 발급한 식별값</td>
+              </tr>
+              <tr>
+                <th scope="row">이메일 주소</th>
+                <td>필수</td>
+                <td>
+                  Apple 로그인 시 실제 주소 대신 Apple이 제공하는 전달용 임의
+                  주소(<code>@privaterelay.appleid.com</code>)일 수 있으며, 이 경우 운영자는 실제 주소를 알 수 없습니다
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">이름</th>
+                <td>선택</td>
+                <td>인증 제공자가 제공하는 경우 표시 이름의 초기값으로 사용되며, 설정에서 변경할 수 있습니다</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          <b>운영자는 이용자의 비밀번호를 수집하거나 보관하지 않습니다.</b> 서비스는 이메일·비밀번호 방식의 회원가입을
+          제공하지 않으며, 인증은 전적으로 Google 및 Apple을 통해 이루어집니다.
+        </p>
 
-    <h2>1. 수집하는 개인정보 항목 및 수집 방법</h2>
+        <h3>나. 서비스 이용 과정에서 생성·수집되는 정보</h3>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>항목</th>
+                <th>내용</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">프로필 및 학습 설정</th>
+                <td>표시 이름, 시간대, 하루 학습량, 현재 학습 급수, 최초 설정 완료 여부</td>
+              </tr>
+              <tr>
+                <th scope="row">학습 데이터</th>
+                <td>단어별 학습 이력, 복습 일정, 정답·오답 기록, 즐겨찾기</td>
+              </tr>
+              <tr>
+                <th scope="row">이용 기록</th>
+                <td>계정 생성 일시, 정보 최종 수정 일시</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          위 정보는 이용자의 계정과 연결되어 저장되므로 개인정보에 해당하며, 학습 일정 계산과 기기 간 동기화에만
+          이용됩니다.
+        </p>
 
-    <h3>가. 계정 등록 시 (소셜 로그인)</h3>
-    <p>서비스는 계정 등록 후 이용할 수 있으며, 등록은 Google 또는 Apple 계정을 통한 소셜 로그인 방식으로만 이루어집니다. 이때 해당 사업자로부터 다음 정보를 전달받습니다.</p>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>항목</th><th>필수 여부</th><th>비고</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">계정 고유 식별자</th><td>필수</td><td>인증 제공자가 발급한 식별값</td></tr>
-          <tr><th scope="row">이메일 주소</th><td>필수</td><td>Apple 로그인 시 실제 주소 대신 Apple이 제공하는 전달용 임의 주소(<code>@privaterelay.appleid.com</code>)일 수 있으며, 이 경우 운영자는 실제 주소를 알 수 없습니다</td></tr>
-          <tr><th scope="row">이름</th><td>선택</td><td>인증 제공자가 제공하는 경우 표시 이름의 초기값으로 사용되며, 설정에서 변경할 수 있습니다</td></tr>
-        </tbody>
-      </table>
+        <h3>다. 자동으로 수집되는 정보</h3>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>항목</th>
+                <th>수집 주체</th>
+                <th>목적</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">광고 식별자(ADID/IDFA), 기기 정보, IP 주소</th>
+                <td>Google AdMob</td>
+                <td>광고 게재 및 측정</td>
+              </tr>
+              <!-- 아래 항목은 푸시 알림 기능을 실제로 출시한 시점부터 포함하시고, 그 전에는 삭제하십시오. -->
+              <!-- <tr><th scope="row">푸시 알림 토큰</th><td>운영자</td><td>학습 알림 발송</td></tr> -->
+            </tbody>
+          </table>
+        </div>
+        <p>운영자는 위에 열거한 항목 외에 이용자의 연락처, 주소, 결제 정보, 생체 정보를 수집하지 않습니다.</p>
+
+        <h2>2. 개인정보의 처리 목적</h2>
+        <p>운영자는 수집한 개인정보를 다음 목적으로만 이용합니다.</p>
+        <ol>
+          <li><b>회원 식별 및 계정 관리</b> — 로그인, 본인 확인, 부정 이용 방지</li>
+          <li>
+            <b>서비스 제공</b> — 학습 데이터의 저장, 기기 간 동기화, SRS 기반 복습 일정 산출, 이용자별 학습 설정 반영
+          </li>
+          <li><b>서비스 개선</b> — 개인을 식별할 수 없도록 가공한 통계를 통한 학습 알고리즘 및 기능 개선</li>
+          <li><b>고지 및 문의 응대</b> — 약관 변경 등 필수 고지, 문의 및 불만 처리</li>
+          <li><b>광고 게재</b> — 서비스 화면 내 광고 노출 및 그 성과 측정</li>
+        </ol>
+        <p>운영자는 위 목적을 벗어나 개인정보를 이용하지 않으며, 목적이 변경되는 경우 사전에 동의를 받습니다.</p>
+
+        <h2>3. 개인정보의 보유 및 이용 기간</h2>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>구분</th>
+                <th>보유 기간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">계정 정보 및 학습 데이터</th>
+                <td>회원 탈퇴 시까지</td>
+              </tr>
+              <tr>
+                <th scope="row">광고 식별자 등 광고 관련 정보</th>
+                <td>Google의 데이터 보관 정책에 따름</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          이용자가 탈퇴하면 계정 정보와 학습 데이터는 <b>데이터베이스에서 즉시 삭제되며 복구할 수 없습니다.</b> 운영자는
+          삭제된 데이터에 대한 별도의 백업 사본을 보관하지 않습니다.
+        </p>
+        <p>
+          서비스는 결제 기능을 제공하지 않으므로, 「전자상거래 등에서의 소비자보호에 관한 법률」에 따른 거래 기록 보존
+          대상이 되는 정보는 수집·보관하지 않습니다.
+        </p>
+
+        <h2>4. 개인정보의 제3자 제공</h2>
+        <p>
+          운영자는 이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만 법령에 근거가 있거나 수사기관이 적법한 절차에
+          따라 요구하는 경우에는 예외로 합니다.
+        </p>
+
+        <h2>5. 개인정보 처리의 위탁</h2>
+        <p>운영자는 서비스 제공을 위해 다음과 같이 개인정보 처리를 위탁하고 있습니다.</p>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>수탁자</th>
+                <th>위탁 업무</th>
+                <th>위탁 항목</th>
+                <th>데이터 저장 위치</th>
+                <th>보유 기간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Supabase, Inc.</th>
+                <td>데이터베이스 운영 및 계정 인증</td>
+                <td>계정 식별자, 이메일, 학습 설정, 학습 데이터</td>
+                <td>대한민국(서울 리전)</td>
+                <td>회원 탈퇴 시까지</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          운영자는 위탁계약 체결 시 개인정보의 안전한 관리에 관한 사항을 규정하고 있으며, 수탁자가 변경되는 경우 이
+          방침을 통해 공개합니다.
+        </p>
+
+        <h2>6. 개인정보의 국외 이전</h2>
+        <p>
+          운영자는 다음과 같이 개인정보를 국외로 이전하고 있습니다. 이전 방법은 서비스 이용 시점에 정보통신망을 통한
+          전송 방식으로 이루어집니다.
+        </p>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>이전받는 자</th>
+                <th>국가</th>
+                <th>연락처</th>
+                <th>이전 항목</th>
+                <th>이전 목적</th>
+                <th>보유 기간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Google LLC</th>
+                <td>미국</td>
+                <td>Google 개인정보처리방침 참조</td>
+                <td>계정 식별자, 이메일</td>
+                <td>소셜 로그인 인증</td>
+                <td>연동 해제 시까지</td>
+              </tr>
+              <tr>
+                <th scope="row">Apple Inc.</th>
+                <td>미국</td>
+                <td>Apple 개인정보처리방침 참조</td>
+                <td>계정 식별자, 이메일(전달용 주소 포함)</td>
+                <td>소셜 로그인 인증</td>
+                <td>연동 해제 시까지</td>
+              </tr>
+              <tr>
+                <th scope="row">Google LLC (AdMob)</th>
+                <td>미국</td>
+                <td>Google 개인정보처리방침 참조</td>
+                <td>광고 식별자, 기기 정보, IP 주소</td>
+                <td>광고 게재 및 성과 측정</td>
+                <td>Google 정책에 따름</td>
+              </tr>
+              <tr>
+                <th scope="row">Supabase, Inc.</th>
+                <td>미국</td>
+                <td><a href="mailto:support@supabase.io">support@supabase.io</a></td>
+                <td>제5항의 위탁 항목</td>
+                <td>시스템 유지·보수 및 기술지원 과정에서의 접근</td>
+                <td>회원 탈퇴 시까지</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Supabase의 데이터는 서울 리전에 저장되며, 위 이전은 국외에서의 접근 가능성을 고려한 고지입니다.</p>
+        <p class="callout callout--brand">
+          <b>국외 이전 거부</b> — 이용자는 개인정보의 국외 이전을 거부할 수 있습니다. 다만 인증 및 데이터베이스 관련
+          이전은 서비스 제공에 필수적이므로, 거부하시는 경우 서비스를 이용하실 수 없습니다. 광고 관련 정보의 이전은 기기
+          설정에서 광고 식별자를 제한하거나 초기화하여 거부할 수 있습니다.
+        </p>
+
+        <h2>7. 개인정보의 파기</h2>
+        <p>
+          운영자는 보유 기간이 경과하거나 처리 목적이 달성된 경우 지체 없이 개인정보를 파기합니다. 파기는
+          데이터베이스에서 복구할 수 없도록 삭제하는 방법으로 이루어지며, 이용자가 앱 내 설정에서 계정 삭제를 실행하면
+          별도의 승인이나 대기 기간 없이 즉시 진행됩니다.
+        </p>
+
+        <h2>8. 만 14세 미만 아동의 개인정보</h2>
+        <p>
+          서비스는 <b>만 14세 이상</b>을 대상으로 하며, 만 14세 미만 아동의 개인정보를 수집하지 않습니다. 만 14세 미만
+          아동이 계정을 등록한 사실이 확인되는 경우 운영자는 해당 계정을 삭제합니다. 법정대리인은 제12항의 연락처를 통해
+          삭제를 요청할 수 있습니다.
+        </p>
+
+        <h2>9. 이용자의 권리와 행사 방법</h2>
+        <p>이용자는 언제든지 다음 권리를 행사할 수 있습니다.</p>
+        <ol>
+          <li><b>열람</b> — 앱 내 설정 화면에서 등록된 정보와 학습 데이터를 확인할 수 있습니다.</li>
+          <li><b>정정</b> — 표시 이름, 시간대, 하루 학습량, 학습 급수는 앱 내 설정에서 직접 수정할 수 있습니다.</li>
+          <li><b>삭제 및 처리정지</b> — 앱 내 설정 메뉴의 계정 삭제 기능으로 전체 데이터를 삭제할 수 있습니다.</li>
+          <li>
+            <b>문의</b> — 위 방법으로 해결되지 않는 사항은 제12항의 연락처로 요청하실 수 있으며, 운영자는 지체 없이
+            조치합니다.
+          </li>
+        </ol>
+        <p>
+          이메일 주소는 인증 제공자로부터 전달받는 정보이므로 앱 내에서 변경할 수 없으며, 해당 제공자 계정에서
+          수정하셔야 합니다.
+        </p>
+
+        <h2>10. 개인정보의 안전성 확보 조치</h2>
+        <ol>
+          <li><b>최소 수집</b> — 서비스 제공에 필요한 최소한의 항목만 수집하며, 비밀번호는 수집하지 않습니다.</li>
+          <li>
+            <b>접근 통제</b> — 데이터베이스에 행 수준 보안(Row Level Security)을 적용하여 이용자가 본인의 데이터에만
+            접근할 수 있도록 제한합니다.
+          </li>
+          <li><b>전송 구간 암호화</b> — 모든 통신은 HTTPS(TLS)로 암호화됩니다.</li>
+          <li><b>접근 권한 관리</b> — 개인정보에 접근할 수 있는 인원은 운영자 본인으로 한정됩니다.</li>
+        </ol>
+
+        <h2>11. 개인정보 자동 수집 장치의 운영 및 거부</h2>
+        <p>
+          서비스는 광고 게재를 위해 기기의 광고 식별자를 이용합니다. 이용자는 다음 방법으로 이를 거부하거나 초기화할 수
+          있습니다.
+        </p>
+        <ul>
+          <li><b>Android</b> — 설정 → Google → 모든 서비스 → 광고 → 광고 ID 삭제</li>
+          <li><b>iOS</b> — 설정 → 개인정보 보호 및 보안 → 추적 → 앱이 추적을 요청하도록 허용 해제</li>
+        </ul>
+
+        <h2>12. 개인정보 보호책임자</h2>
+        <p>개인정보 처리에 관한 업무를 총괄하고 이용자의 불만 및 피해 구제를 담당하는 책임자는 다음과 같습니다.</p>
+        <ul>
+          <li>개인정보 보호책임자: <b>[성명 또는 '운영자']</b></li>
+          <li>이메일: <b>[운영 이메일 주소]</b></li>
+        </ul>
+        <p>
+          이용자는 서비스 이용 중 발생한 모든 개인정보 관련 문의를 위 연락처로 제출할 수 있으며, 운영자는 지체 없이
+          답변하고 처리합니다.
+        </p>
+        <p class="callout"><b>문의 접수</b> — <a href="mailto:support@moshimoshi.app">support@moshimoshi.app</a></p>
+
+        <h2>13. 권익침해 구제 방법</h2>
+        <p>개인정보 침해로 인한 신고나 상담이 필요한 경우 다음 기관에 문의하실 수 있습니다.</p>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>기관</th>
+                <th>전화</th>
+                <th>웹사이트</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">개인정보침해 신고센터</th>
+                <td>국번 없이 118</td>
+                <td><a href="https://privacy.kisa.or.kr" rel="noopener">privacy.kisa.or.kr</a></td>
+              </tr>
+              <tr>
+                <th scope="row">개인정보 분쟁조정위원회</th>
+                <td>1833-6972</td>
+                <td><a href="https://www.kopico.go.kr" rel="noopener">kopico.go.kr</a></td>
+              </tr>
+              <tr>
+                <th scope="row">대검찰청 사이버수사과</th>
+                <td>국번 없이 1301</td>
+                <td><a href="https://www.spo.go.kr" rel="noopener">spo.go.kr</a></td>
+              </tr>
+              <tr>
+                <th scope="row">경찰청 사이버수사국</th>
+                <td>국번 없이 182</td>
+                <td><a href="https://ecrm.police.go.kr" rel="noopener">ecrm.police.go.kr</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>14. 개인정보처리방침의 변경</h2>
+        <ol>
+          <li>
+            이 방침이 변경되는 경우 운영자는 변경 사항을 적용일 <b>7일 전</b>부터 앱 내 공지사항을 통해 공지합니다. 다만
+            이용자의 권리에 중대한 영향을 미치는 변경의 경우에는 <b>30일 전</b>부터 공지합니다.
+          </li>
+          <li>변경된 방침은 공지한 적용일부터 효력이 발생합니다.</li>
+        </ol>
+
+        <h2>부칙</h2>
+        <p>이 개인정보처리방침은 2026년 9월 19일부터 시행합니다.</p>
+
+        <h3>개정 이력</h3>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>버전</th>
+                <th>시행일</th>
+                <th>주요 변경사항</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1.0</th>
+                <td>[YYYY-MM-DD]</td>
+                <td>최초 제정</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <hr class="doc__nav-rule" />
+        <p class="doc__nav">
+          <a href="../index.html">홈</a> · <a href="../terms/index.html">이용약관</a> · © 2026 moshimoshi
+        </p>
+      </article>
     </div>
-    <p><b>운영자는 이용자의 비밀번호를 수집하거나 보관하지 않습니다.</b> 서비스는 이메일·비밀번호 방식의 회원가입을 제공하지 않으며, 인증은 전적으로 Google 및 Apple을 통해 이루어집니다.</p>
-
-    <h3>나. 서비스 이용 과정에서 생성·수집되는 정보</h3>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>항목</th><th>내용</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">프로필 및 학습 설정</th><td>표시 이름, 시간대, 하루 학습량, 현재 학습 급수, 최초 설정 완료 여부</td></tr>
-          <tr><th scope="row">학습 데이터</th><td>단어별 학습 이력, 복습 일정, 정답·오답 기록, 즐겨찾기</td></tr>
-          <tr><th scope="row">이용 기록</th><td>계정 생성 일시, 정보 최종 수정 일시</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p>위 정보는 이용자의 계정과 연결되어 저장되므로 개인정보에 해당하며, 학습 일정 계산과 기기 간 동기화에만 이용됩니다.</p>
-
-    <h3>다. 자동으로 수집되는 정보</h3>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>항목</th><th>수집 주체</th><th>목적</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">광고 식별자(ADID/IDFA), 기기 정보, IP 주소</th><td>Google AdMob</td><td>광고 게재 및 측정</td></tr>
-          <!-- 아래 항목은 푸시 알림 기능을 실제로 출시한 시점부터 포함하시고, 그 전에는 삭제하십시오. -->
-          <!-- <tr><th scope="row">푸시 알림 토큰</th><td>운영자</td><td>학습 알림 발송</td></tr> -->
-        </tbody>
-      </table>
-    </div>
-    <p>운영자는 위에 열거한 항목 외에 이용자의 연락처, 주소, 결제 정보, 생체 정보를 수집하지 않습니다.</p>
-
-    <h2>2. 개인정보의 처리 목적</h2>
-    <p>운영자는 수집한 개인정보를 다음 목적으로만 이용합니다.</p>
-    <ol>
-      <li><b>회원 식별 및 계정 관리</b> — 로그인, 본인 확인, 부정 이용 방지</li>
-      <li><b>서비스 제공</b> — 학습 데이터의 저장, 기기 간 동기화, SRS 기반 복습 일정 산출, 이용자별 학습 설정 반영</li>
-      <li><b>서비스 개선</b> — 개인을 식별할 수 없도록 가공한 통계를 통한 학습 알고리즘 및 기능 개선</li>
-      <li><b>고지 및 문의 응대</b> — 약관 변경 등 필수 고지, 문의 및 불만 처리</li>
-      <li><b>광고 게재</b> — 서비스 화면 내 광고 노출 및 그 성과 측정</li>
-    </ol>
-    <p>운영자는 위 목적을 벗어나 개인정보를 이용하지 않으며, 목적이 변경되는 경우 사전에 동의를 받습니다.</p>
-
-    <h2>3. 개인정보의 보유 및 이용 기간</h2>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>구분</th><th>보유 기간</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">계정 정보 및 학습 데이터</th><td>회원 탈퇴 시까지</td></tr>
-          <tr><th scope="row">광고 식별자 등 광고 관련 정보</th><td>Google의 데이터 보관 정책에 따름</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p>이용자가 탈퇴하면 계정 정보와 학습 데이터는 <b>데이터베이스에서 즉시 삭제되며 복구할 수 없습니다.</b> 운영자는 삭제된 데이터에 대한 별도의 백업 사본을 보관하지 않습니다.</p>
-    <p>서비스는 결제 기능을 제공하지 않으므로, 「전자상거래 등에서의 소비자보호에 관한 법률」에 따른 거래 기록 보존 대상이 되는 정보는 수집·보관하지 않습니다.</p>
-
-    <h2>4. 개인정보의 제3자 제공</h2>
-    <p>운영자는 이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만 법령에 근거가 있거나 수사기관이 적법한 절차에 따라 요구하는 경우에는 예외로 합니다.</p>
-
-    <h2>5. 개인정보 처리의 위탁</h2>
-    <p>운영자는 서비스 제공을 위해 다음과 같이 개인정보 처리를 위탁하고 있습니다.</p>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>수탁자</th><th>위탁 업무</th><th>위탁 항목</th><th>데이터 저장 위치</th><th>보유 기간</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">Supabase, Inc.</th><td>데이터베이스 운영 및 계정 인증</td><td>계정 식별자, 이메일, 학습 설정, 학습 데이터</td><td>대한민국(서울 리전)</td><td>회원 탈퇴 시까지</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p>운영자는 위탁계약 체결 시 개인정보의 안전한 관리에 관한 사항을 규정하고 있으며, 수탁자가 변경되는 경우 이 방침을 통해 공개합니다.</p>
-
-    <h2>6. 개인정보의 국외 이전</h2>
-    <p>운영자는 다음과 같이 개인정보를 국외로 이전하고 있습니다. 이전 방법은 서비스 이용 시점에 정보통신망을 통한 전송 방식으로 이루어집니다.</p>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>이전받는 자</th><th>국가</th><th>연락처</th><th>이전 항목</th><th>이전 목적</th><th>보유 기간</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">Google LLC</th><td>미국</td><td>Google 개인정보처리방침 참조</td><td>계정 식별자, 이메일</td><td>소셜 로그인 인증</td><td>연동 해제 시까지</td></tr>
-          <tr><th scope="row">Apple Inc.</th><td>미국</td><td>Apple 개인정보처리방침 참조</td><td>계정 식별자, 이메일(전달용 주소 포함)</td><td>소셜 로그인 인증</td><td>연동 해제 시까지</td></tr>
-          <tr><th scope="row">Google LLC (AdMob)</th><td>미국</td><td>Google 개인정보처리방침 참조</td><td>광고 식별자, 기기 정보, IP 주소</td><td>광고 게재 및 성과 측정</td><td>Google 정책에 따름</td></tr>
-          <tr><th scope="row">Supabase, Inc.</th><td>미국</td><td><a href="mailto:support@supabase.io">support@supabase.io</a></td><td>제5항의 위탁 항목</td><td>시스템 유지·보수 및 기술지원 과정에서의 접근</td><td>회원 탈퇴 시까지</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p>Supabase의 데이터는 서울 리전에 저장되며, 위 이전은 국외에서의 접근 가능성을 고려한 고지입니다.</p>
-    <p class="callout callout--brand"><b>국외 이전 거부</b> — 이용자는 개인정보의 국외 이전을 거부할 수 있습니다. 다만 인증 및 데이터베이스 관련 이전은 서비스 제공에 필수적이므로, 거부하시는 경우 서비스를 이용하실 수 없습니다. 광고 관련 정보의 이전은 기기 설정에서 광고 식별자를 제한하거나 초기화하여 거부할 수 있습니다.</p>
-
-    <h2>7. 개인정보의 파기</h2>
-    <p>운영자는 보유 기간이 경과하거나 처리 목적이 달성된 경우 지체 없이 개인정보를 파기합니다. 파기는 데이터베이스에서 복구할 수 없도록 삭제하는 방법으로 이루어지며, 이용자가 앱 내 설정에서 계정 삭제를 실행하면 별도의 승인이나 대기 기간 없이 즉시 진행됩니다.</p>
-
-    <h2>8. 만 14세 미만 아동의 개인정보</h2>
-    <p>서비스는 <b>만 14세 이상</b>을 대상으로 하며, 만 14세 미만 아동의 개인정보를 수집하지 않습니다. 만 14세 미만 아동이 계정을 등록한 사실이 확인되는 경우 운영자는 해당 계정을 삭제합니다. 법정대리인은 제12항의 연락처를 통해 삭제를 요청할 수 있습니다.</p>
-
-    <h2>9. 이용자의 권리와 행사 방법</h2>
-    <p>이용자는 언제든지 다음 권리를 행사할 수 있습니다.</p>
-    <ol>
-      <li><b>열람</b> — 앱 내 설정 화면에서 등록된 정보와 학습 데이터를 확인할 수 있습니다.</li>
-      <li><b>정정</b> — 표시 이름, 시간대, 하루 학습량, 학습 급수는 앱 내 설정에서 직접 수정할 수 있습니다.</li>
-      <li><b>삭제 및 처리정지</b> — 앱 내 설정 메뉴의 계정 삭제 기능으로 전체 데이터를 삭제할 수 있습니다.</li>
-      <li><b>문의</b> — 위 방법으로 해결되지 않는 사항은 제12항의 연락처로 요청하실 수 있으며, 운영자는 지체 없이 조치합니다.</li>
-    </ol>
-    <p>이메일 주소는 인증 제공자로부터 전달받는 정보이므로 앱 내에서 변경할 수 없으며, 해당 제공자 계정에서 수정하셔야 합니다.</p>
-
-    <h2>10. 개인정보의 안전성 확보 조치</h2>
-    <ol>
-      <li><b>최소 수집</b> — 서비스 제공에 필요한 최소한의 항목만 수집하며, 비밀번호는 수집하지 않습니다.</li>
-      <li><b>접근 통제</b> — 데이터베이스에 행 수준 보안(Row Level Security)을 적용하여 이용자가 본인의 데이터에만 접근할 수 있도록 제한합니다.</li>
-      <li><b>전송 구간 암호화</b> — 모든 통신은 HTTPS(TLS)로 암호화됩니다.</li>
-      <li><b>접근 권한 관리</b> — 개인정보에 접근할 수 있는 인원은 운영자 본인으로 한정됩니다.</li>
-    </ol>
-
-    <h2>11. 개인정보 자동 수집 장치의 운영 및 거부</h2>
-    <p>서비스는 광고 게재를 위해 기기의 광고 식별자를 이용합니다. 이용자는 다음 방법으로 이를 거부하거나 초기화할 수 있습니다.</p>
-    <ul>
-      <li><b>Android</b> — 설정 → Google → 모든 서비스 → 광고 → 광고 ID 삭제</li>
-      <li><b>iOS</b> — 설정 → 개인정보 보호 및 보안 → 추적 → 앱이 추적을 요청하도록 허용 해제</li>
-    </ul>
-
-    <h2>12. 개인정보 보호책임자</h2>
-    <p>개인정보 처리에 관한 업무를 총괄하고 이용자의 불만 및 피해 구제를 담당하는 책임자는 다음과 같습니다.</p>
-    <ul>
-      <li>개인정보 보호책임자: <b>[성명 또는 '운영자']</b></li>
-      <li>이메일: <b>[운영 이메일 주소]</b></li>
-    </ul>
-    <p>이용자는 서비스 이용 중 발생한 모든 개인정보 관련 문의를 위 연락처로 제출할 수 있으며, 운영자는 지체 없이 답변하고 처리합니다.</p>
-    <p class="callout"><b>문의 접수</b> — <a href="mailto:support@moshimoshi.app">support@moshimoshi.app</a></p>
-
-    <h2>13. 권익침해 구제 방법</h2>
-    <p>개인정보 침해로 인한 신고나 상담이 필요한 경우 다음 기관에 문의하실 수 있습니다.</p>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>기관</th><th>전화</th><th>웹사이트</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">개인정보침해 신고센터</th><td>국번 없이 118</td><td><a href="https://privacy.kisa.or.kr" rel="noopener">privacy.kisa.or.kr</a></td></tr>
-          <tr><th scope="row">개인정보 분쟁조정위원회</th><td>1833-6972</td><td><a href="https://www.kopico.go.kr" rel="noopener">kopico.go.kr</a></td></tr>
-          <tr><th scope="row">대검찰청 사이버수사과</th><td>국번 없이 1301</td><td><a href="https://www.spo.go.kr" rel="noopener">spo.go.kr</a></td></tr>
-          <tr><th scope="row">경찰청 사이버수사국</th><td>국번 없이 182</td><td><a href="https://ecrm.police.go.kr" rel="noopener">ecrm.police.go.kr</a></td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h2>14. 개인정보처리방침의 변경</h2>
-    <ol>
-      <li>이 방침이 변경되는 경우 운영자는 변경 사항을 적용일 <b>7일 전</b>부터 앱 내 공지사항을 통해 공지합니다. 다만 이용자의 권리에 중대한 영향을 미치는 변경의 경우에는 <b>30일 전</b>부터 공지합니다.</li>
-      <li>변경된 방침은 공지한 적용일부터 효력이 발생합니다.</li>
-    </ol>
-
-    <h2>부칙</h2>
-    <p>이 개인정보처리방침은 [YYYY년 MM월 DD일]부터 시행합니다.</p>
-
-    <h3>개정 이력</h3>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr><th>버전</th><th>시행일</th><th>주요 변경사항</th></tr>
-        </thead>
-        <tbody>
-          <tr><th scope="row">1.0</th><td>[YYYY-MM-DD]</td><td>최초 제정</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <hr class="doc__nav-rule">
-    <p class="doc__nav">
-      <a href="../index.html">홈</a> · <a href="../terms/index.html">이용약관</a> · © 2026 moshimoshi
-    </p>
-  </article>
-</div>
-</body>
+  </body>
 </html>
