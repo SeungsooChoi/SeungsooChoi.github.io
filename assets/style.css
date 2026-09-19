@@ -26,8 +26,11 @@
   --shadow-card: 0 2px 10px rgba(28, 25, 23, 0.05);
   --shadow-brand: 0 8px 20px -10px rgba(5, 150, 105, 0.7);
 
-  --font-body: 'Zen Kaku Gothic New', system-ui, -apple-system, sans-serif;
-  --font-round: 'Zen Maru Gothic', 'Zen Kaku Gothic New', system-ui, sans-serif;
+  --font-body:
+    'Zen Kaku Gothic New', 'Apple SD Gothic Neo', 'Malgun Gothic', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-round:
+    'Zen Maru Gothic', 'Zen Kaku Gothic New', 'Apple SD Gothic Neo', 'Malgun Gothic', -apple-system, BlinkMacSystemFont,
+    sans-serif;
 
   /* sticky header height — anchor targets offset by this */
   --header-h: 69px;
