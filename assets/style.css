@@ -834,6 +834,9 @@ svg {
   gap: 10px 18px;
 }
 .doc-nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-round);
   font-size: 18px;
   font-weight: 700;
@@ -842,6 +845,12 @@ svg {
 }
 .doc-nav__brand:hover {
   color: var(--ink);
+}
+.doc-nav__mark {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 10px;
 }
 .doc-nav__link {
   font-size: 14px;
