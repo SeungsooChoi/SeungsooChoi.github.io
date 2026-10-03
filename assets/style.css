@@ -152,16 +152,10 @@ svg {
   color: var(--ink);
 }
 .brand__mark {
+  display: block;
   width: 36px;
   height: 36px;
   border-radius: 13px;
-  background: var(--brand);
-  display: grid;
-  place-items: center;
-  color: #fff;
-  font-family: var(--font-round);
-  font-weight: 700;
-  font-size: 18px;
   box-shadow: 0 6px 16px rgba(5, 150, 105, 0.24);
 }
 .brand__name {
@@ -768,16 +762,10 @@ svg {
   gap: 9px;
 }
 .site-footer__mark {
+  display: block;
   width: 30px;
   height: 30px;
   border-radius: 11px;
-  background: var(--brand);
-  display: grid;
-  place-items: center;
-  color: #fff;
-  font-family: var(--font-round);
-  font-weight: 700;
-  font-size: 15px;
 }
 .site-footer__name {
   font-family: var(--font-round);
