@@ -6,7 +6,7 @@
     <title>moshimoshi — JLPT 일본어 단어 학습</title>
     <meta
       name="description"
-      content="간격 반복(SRS)으로 JLPT N5–N1 단어를 관리하는 일본어 학습 앱. 오늘 복습할 카드만 골라 주고, 학습 기록은 계정에 저장되어 기기 간 이어집니다."
+      content="간격 반복(SRS)으로 JLPT N5–N1 단어를 관리하는 일본어 학습 앱. 오늘 복습할 단어와 새 단어를 정해진 분량만큼 골라 주고, 학습 기록은 계정에 저장되어 기기 간 이어집니다."
     />
     <meta name="theme-color" content="#059669" />
     <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon.png" />
@@ -49,8 +49,8 @@
               더 쉽게 학습하는 일본어
             </h1>
             <p class="hero__lead">
-              간격 반복(SRS)이 오늘 복습할 카드만 골라 줍니다. <br />가나부터 JLPT 급수별 단어까지, 하루 10분으로
-              학습하는 일본어.
+              간격 반복(SRS)이 오늘 풀 단어를 골라 줍니다. 복습할 단어가 먼저, 남는 자리에 새 단어가.
+              <br />가나부터 JLPT 급수별 단어까지, 하루 10분 이내로 학습하는 일본어.
             </p>
             <div id="download" class="hero__actions">
               <span class="btn btn--primary" role="link" aria-disabled="true">App Store</span>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="phone__task">
                       <b>JLPT N3 단어 학습</b>
-                      <span>오늘 15단어 중 9단어 완료</span>
+                      <span>오늘 100문항 중 60문항 완료</span>
                     </div>
                     <span class="phone__badge">
                       <svg
@@ -109,7 +109,7 @@
                         <path d="M3 12a9 9 0 1 0 3-6.7"></path>
                         <path d="M3 4v5h5"></path>
                       </svg>
-                      복습 6단어
+                      복습 40
                     </span>
                     <span class="phone__cta">이어서 학습</span>
                   </div>
@@ -130,11 +130,11 @@
                           <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"></path>
                           <path d="M9 3v18"></path>
                         </svg>
-                        학습한 단어
+                        푼 문항
                       </span>
                       <span class="phone__report-row">
-                        <b class="phone__report-value">9</b>
-                        <span class="phone__report-unit">/ 15</span>
+                        <b class="phone__report-value">60</b>
+                        <span class="phone__report-unit">/ 100</span>
                       </span>
                       <div class="phone__report-bar"><i style="width: 60%"></i></div>
                     </div>
@@ -248,8 +248,8 @@
             <span class="stat__label">전체 단어 수</span>
           </div>
           <div class="stat">
-            <b class="stat__value">10분</b>
-            <span class="stat__label">하루 평균 학습 시간</span>
+            <b class="stat__value">10분 이내</b>
+            <span class="stat__label">하루 학습 시간</span>
           </div>
           <div class="stat">
             <b class="stat__value stat__value--accent">0원</b>
@@ -303,14 +303,16 @@
               </span>
               <b class="card__title">잊힐 때 돌아오는 복습</b>
               <p class="card__text">
-                간격 반복 알고리즘이 카드마다 다음 복습일을 따로 계산합니다. 아는 단어는 멀리 보내고 모르는 단어만 자주
-                불러오니, 매일 해야 할 분량이 스스로 줄어듭니다.
+                간격 반복 알고리즘이 카드마다 다음 복습일을 따로 계산합니다. 아는 단어는 1일에서 30일까지 점점 멀리
+                보내고, 모른다고 답한 단어는 다음 날 처음부터 다시 불러옵니다. 하루 문항 수에 상한이 있어 복습이 밀려도
+                정해진 분량 이상은 나오지 않습니다.
               </p>
               <div class="chips">
                 <span class="chip">1일</span>
                 <span class="chip">3일</span>
                 <span class="chip">7일</span>
-                <span class="chip chip--brand">21일</span>
+                <span class="chip">14일</span>
+                <span class="chip chip--brand">30일</span>
               </div>
             </div>
             <div class="card">
@@ -375,8 +377,8 @@
             <details class="faq">
               <summary class="faq__q">기기를 바꾸면 학습 기록이 사라지나요?</summary>
               <p class="faq__a">
-                복습 일정과 정답률이 계정에 저장되므로, 같은 계정으로 로그인하면 새 기기에서 그대로 이어집니다. 기기에만
-                저장된 로컬 데이터는 앱을 삭제하면 함께 사라집니다.
+                카드에 답할 때마다 계정에 바로 저장되므로, 기기를 바꾸거나 앱을 다시 설치해도 같은 계정으로 로그인하면
+                진도가 그대로 이어집니다. 학습 도중 앱을 꺼도 답한 문항까지는 저장되어 다음에 이어서 풉니다.
               </p>
             </details>
             <details class="faq">
