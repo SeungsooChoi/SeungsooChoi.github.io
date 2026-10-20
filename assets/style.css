@@ -244,8 +244,13 @@ svg {
   color: #fff;
 }
 
-.btn[aria-disabled='true'] {
-  cursor: default;
+.app-store-badge {
+  display: inline-flex;
+}
+.app-store-badge img {
+  display: block;
+  height: 54px;
+  width: auto;
 }
 
 /* ---------- section headings ---------- */
